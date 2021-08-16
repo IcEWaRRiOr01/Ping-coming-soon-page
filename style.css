@@ -1,0 +1,374 @@
+:root {
+    /* Primary */
+    --blue: hsl(223, 87%, 63%);
+
+    /* Secondary */
+    --pale-blue: hsl(223, 100%, 88%);
+    --light-red: hsl(354, 100%, 66%);
+    
+    /* Neutral */
+    --gray: hsl(0, 0%, 59%);
+    --very-dark-blue: hsl(209, 33%, 12%);
+}
+
+body {
+    font-size: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: white;
+}
+
+.logo-banner {
+    padding-top: 22.5vw;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 14vw;
+}
+
+.header {
+    margin-top: 9.5vw;
+}
+
+.header-title {
+    font-weight: 300;
+    text-align: center;
+    color: var(--gray);
+    font-size: 5.95vw;
+}
+
+.header-bold {
+    font-weight: 700;
+    color: black;
+}
+
+.description {
+    text-align: center;
+    font-size: 3.2vw;
+    color: black;
+}
+
+.form {
+    padding-top: 3.65vw;
+}
+
+.email-input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75vw;
+    height: 10.5vw;
+    border-radius: 6vw;
+    font-size: 3.25vw;
+    padding-left: 8.5vw;
+    font-weight: 300;
+    color: black;
+    border-color: var(--pale-blue);
+    border-width: 0.55vw;
+}
+
+.email-input::placeholder {
+    font-size: 3.25vw;
+    color: var(--pale-blue);
+}
+
+#novalid {
+    margin-top: 1.5vw;
+    font-size: 2.75vw;
+    text-align: center;
+    color: var(--light-red);
+    display: none;
+    font-style: italic;
+}
+
+#empty {
+    font-size: 2.7vw;
+    text-align: center;
+    margin-top: 1vw;
+    color: var(--light-red);
+    display: none;
+    font-style: italic;
+}
+
+.button-wrapper {
+    padding-top: 2.8vw;
+}
+
+.submit-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--blue);
+    color: white;
+    border: none;
+    width: 75vw;
+    height: 10.5vw;
+    border-radius: 5.5vw;
+    font-weight: 600;
+    font-size: 3.2vw;
+
+    /* margin-top: 5vw; */
+}
+
+.aside {
+    padding-top: 18.4vw;
+}
+
+.image {
+    width: 85vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    padding-top: 22vw;
+}
+
+.socials-block {
+    margin-top: 9.5vw;
+}
+
+.facebook-wrapper, .twitter-wrapper, .instagram-wrapper {
+    width: 10.5vw;
+    height: 10vw;
+    padding-top: 1vw;
+}
+
+.facebook-wrapper {
+    margin-left: 33.2vw;
+}
+
+.twitter-wrapper {
+    margin-left: 44.5vw;
+    margin-top: -10vw;
+}
+
+.instagram-wrapper {
+    margin-left: 56.3vw;
+    margin-top: -10vw;
+}
+
+.facebook, .twitter, .instagram {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8vw;
+    height: 8vw;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+}
+
+.facebook {
+    background-image: url(./images/logo-facebook.svg);
+    background-size: 2.5vw;
+    background-position: 2.5vw 1.2vw;
+}
+
+.twitter {
+    background-image: url(./images/logo-twitter.svg);
+    background-size: 3.8vw;
+    background-position: 2vw 1.7vw;
+}
+
+.instagram {
+    background-image: url(./images/logo-instagram.svg);
+    background-size: 4.2vw;
+    background-position: 1.7vw 1.6vw;
+}
+
+.copyright-block {
+    margin-top: 6vw;
+}
+
+.copyright-title {
+    text-align: center;
+    font-size: 2.7vw;
+}
+
+.attribution { 
+    font-size: 2.7vw; 
+    text-align: center; 
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (min-width: 768px) {
+    .logo-banner {
+        padding-top: 6vw;
+        padding-left: 1vw;
+    }
+    
+    .logo {
+        width: 6vw;
+    }
+
+    .header {
+        margin-top: 2.9vw;
+    }
+    
+    .header-title {
+        font-size: 3.35vw;
+        padding-left: 1.1vw;
+    }
+
+    .description-wrapper {
+        margin-top: -1.8vw;
+    }
+
+    .description {
+        padding-left: 1vw;
+        font-size: 1.4vw;
+    }
+
+    .form {
+        padding-top: 1.5vw;
+    }
+
+    .input-wrapper {
+        width: 57.3vw;
+    }
+    
+    .email-input {
+        margin-left: 28vw;
+        margin-right: 0;
+        width: 29.1vw;
+        height: 3.8vw;
+        font-size: 1.12vw;
+        padding-left: 2vw;
+        padding-top: 0.3vw;
+        border-width: 0.2vw;
+    }
+    
+    .email-input::placeholder {
+        font-size: 1.12vw;
+    }
+    
+    #novalid {
+        margin-top: 0.5vw;
+        font-size: 0.86vw;
+        margin-left: 30vw;
+        text-align: left;
+        position: absolute;
+    }
+
+    #empty {
+        font-size: 0.86vw;
+        text-align: left;
+        margin-left: 30vw;
+        position: absolute;
+    }
+    
+    .button-wrapper {
+        padding-top: 0vw;
+        width: 14.1vw;
+        margin-left: 58.2vw;
+        margin-top: -3.86vw;
+    }
+    
+    .submit-button {
+        margin-left: 0;
+        margin-right: 0;
+        width: 14vw;
+        height: 3.8vw;
+        font-size: 1.1vw;
+    }
+
+    .submit-button:hover {
+        background-color: #7195f5;
+    }
+
+    .aside {
+        padding-top: 6.28vw;
+    }
+    
+    .image {
+        width: 43.42vw;
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .footer {
+        padding-top: 0vw;
+    }
+    
+    .socials-block {
+        margin-top: 0vw;
+        padding-top: 4.3vw;
+    }
+    
+    .facebook-wrapper, .twitter-wrapper, .instagram-wrapper {
+        width: 2.5vw;
+        height: 3.5vw;
+        padding-top: 1vw;
+    }
+    
+    .facebook-wrapper {
+        margin-left: 45.7vw;
+    }
+    
+    .twitter-wrapper {
+        margin-left: 48.7vw;
+        margin-top: -3.4vw;
+    }
+    
+    .instagram-wrapper {
+        margin-left: 51.7vw;
+        margin-top: -3.5vw;
+    }
+    
+    .facebook, .twitter, .instagram {
+        width: 2.2vw;
+        height: 2.2vw;
+    }
+
+    .facebook:hover, .twitter:hover, .instagram:hover {
+        background-color: var(--blue);
+    }
+    
+    .facebook {
+        background-size: 0.7vw;
+        background-position: 0.65vw 0.5vw;
+    }
+    
+    .twitter {
+        background-size: 0.9vw;
+        background-position: 0.6vw 0.55vw;
+    }
+    
+    .instagram {
+        background-size: 1.17vw;
+        background-position: 0.5vw 0.45vw;
+    }
+
+    .facebook:hover {
+        background-image: url(./images/logo-facebook-hover.svg);
+    }
+
+    .twitter:hover {
+        background-image: url(./images/logo-twitter-hover.svg);
+    }
+
+    .instagram:hover {
+        background-image: url(./images/logo-instagram-hover.svg);
+    }
+    
+    .copyright-block {
+        margin-top: 0vw;
+    }
+    
+    .copyright-title {
+        font-size: 1.2vw;
+    }
+    
+    .attribution { 
+        font-size: 1.5vw; 
+    }
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="reseter.min.css">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Ping coming soon page</title>
+</head>
+<body>
+  <div class="logo-banner" role="banner">
+    <img class="logo" src="./images/logo.svg" alt="Logo">
+  </div>
+
+  <header class="header">
+    <h1 class="header-title">We are launching <b class="header-bold">soon!</b></h1>
+  </header>
+
+  <main class="main">
+    <div class="description-wrapper">
+      <p class="description">Subscribe and get notified</p>
+    </div>
+
+    <form class="form" id="form" name="form" action="" method="GET" novalidate>
+      <div class="input-wrapper">
+        <input type="email" id="email" class="email-input" name="email" placeholder="Your email address...">
+        <p id="novalid">Please provide a valid email address</p>
+        <p id="empty">Whoops! It looks like you forgot to add your email</p>
+      </div>
+      <div class="button-wrapper">
+        <button type="submit" class="submit-button">Notify Me</button>
+      </div>
+    </form>
+  </main>
+
+  <aside class="aside">
+    <img class="image" src="./images/illustration-dashboard.png" alt="Illustration dashboard">
+  </aside>
+  
+  <footer class="footer">
+    <div class="socials-block">
+      <div class="facebook-wrapper">
+        <button class="facebook"></button>
+      </div>
+      <div class="twitter-wrapper">
+        <button class="twitter"></button>
+      </div>
+      <div class="instagram-wrapper">
+        <button class="instagram"></button>
+      </div>
+    </div>
+
+    <div class="copyright-block">
+      <p class="copyright-title">&copy; Copyright Ping. All rights reserved.</p>
+    </div>
+    
+
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/IcEWaRRiOr01" target="_blank">Alexander Orazdurdyev</a>.
+    </p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
